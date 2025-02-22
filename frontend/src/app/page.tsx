@@ -8,11 +8,11 @@ export default function Home() {
   const [bmi, setBmi] = useState(null);
   const [classification, setClassification] = useState(null);
 
-  const handleChange = (e) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setformData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     const response = await fetch("http://127.0.0.1:8000/calculate", {

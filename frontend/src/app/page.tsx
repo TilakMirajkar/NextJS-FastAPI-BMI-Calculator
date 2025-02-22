@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
 export default function Home() {
-  const [formData, setformData] = useState({ age: "", height: "", weight: "" });
+  const [formData, setformData] = useState({ height: "", weight: "" });
   const [bmi, setBmi] = useState(null);
   const [classification, setClassification] = useState(null);
 

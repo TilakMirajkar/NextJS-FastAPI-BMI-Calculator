@@ -32,7 +32,7 @@ export default function Home() {
   };
 
   return (
-    <div className="grid grid-rows items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-16">
+    <div className="grid grid-rows items-center justify-items-center h-screen w-full p-8 pb-20 gap-16 sm:p-16">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-center ">
         <h1 className="text-4xl font-black">BMI Calculator</h1>
         <form

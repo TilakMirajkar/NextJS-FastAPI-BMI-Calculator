@@ -37,7 +37,7 @@ export default function Home() {
         <h1 className="text-4xl font-black">BMI Calculator</h1>
         <form
           onSubmit={handleSubmit}
-          className="flex gap-8 font-medium sm:gap-5"
+          className="flex gap-8 font-medium sm:gap-1"
         >
           <Input
             type="number"
